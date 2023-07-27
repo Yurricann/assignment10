@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --mainColor: #17a2b8;
+}
+
+body{
+    background-color: #F7ECDE;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #24353f;
+    color: #fff;
+}
+
+h1,h2,h3{
+    color: var(--mainColor);
+}
+
+.login,.signup,.logout{
+    box-shadow:-2px 2px 27px -7px rgba(0, 0, 0, 1);
+}
+
+.signup,.logout{
+    display: none;
+}
+
+input{
+    color: #fff !important;
+    background-color: transparent !important;
+    border-color: #CED4DA !important;
+}
+
+input::placeholder{
+    color: #CED4DA !important;
+}
+
+.loginBtn{
+    border-color: var(--mainColor);
+    width: 100%;
+    color: var(--mainColor);
+}
+
+.loginBtn:hover{
+    background-color: var(--mainColor);
+    color: #fff;
+}
+
+
+.questionBtn{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    background-color: transparent;
+    border: none;
+    color: #17a2b8;
+    transition: color 0.4s;
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -ms-transition: color 0.4s;
+    -o-transition: color 0.4s;
+}
+
+.questionBtn:hover{
+    color: #ddd;
+}
+
+#hintSignUpBtn,#hintSignIn{
+    color: rgb(190, 27, 27);
+    margin-bottom: 0;
+}

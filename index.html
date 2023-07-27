@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <title>Assignment 10</title>
+</head>
+<body>
+    
+
+    <main>
+        <div class="container my-5 text-center">
+            <div id="login" class="login p-5 m-auto w-75">
+                <h1>Smart Login System</h1>
+                <input type="email" name="email" id="userEmail" class="form-control my-3" placeholder="Enter your email">
+                <input type="password" name="password" id="userPassword" class="form-control my-3" placeholder="Enter your password">
+                <div>
+                    <p id="hintSignIn"></p>
+                </div>
+                <button id="loginBtn" class="btn loginBtn my-3">Login</button>
+                <p>Don’t have an account? <button id="NewsignUpBtn" class=" questionBtn">Sign Up</button></p>
+            </div>
+
+            <div id="singup" class="signup p-5 m-auto w-75">
+                <h1>Smart Login System</h1>
+                <input type="text" name="newUsername" id="newUserName" class="form-control my-3" placeholder="Enter your username">
+                <input type="email" name="newEmail" id="newUserEmail" class="form-control my-3" placeholder="Enter your email">
+                <input type="password" name="newPassword" id="newUserPassword" class="form-control my-3" placeholder="Enter your password">
+                <div>
+                    <p id="hintSignUpBtn"></p>
+                </div>
+                <button id="signUpBtn" class="btn loginBtn my-3">Sign Up</button>
+                <p>You have an account? <button id="signedAlready" class=" questionBtn">Sign in</button></p>
+            </div>
+
+            <div id="logout" class="logout p-5 m-auto w-75">
+                <h2 class="fs-1 mb-3">Hello , <span id="greeting" class="greeting">Mostafa</span></h2>
+                <p>You are successfully logged in!</p>
+                <p>You want to Log out? <button id="logoutBtn" class=" questionBtn">Log out</button></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
